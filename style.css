@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url(bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  height: 360px;
+  width: 380px;
+  padding: 20px 0px;
+  border-radius: 10px;
+  text-align: center;
+  backdrop-filter: blur(30px);
+  border: 1px solid rgba(255, 255, 255, 0.205);
+  display: flex;
+  flex-direction: column;
+ justify-content: space-between;
+}
+
+.form h1 {
+  text-align: center;
+  margin: 2px;
+  color: white;
+}
+
+.form input {
+  background: transparent;
+  position: relative;
+  margin: 14px 10px;
+  border-radius: 40px;
+  padding: 7px 10px;
+  width: 270px;
+  color: white;
+  border: 1px solid white;
+  outline: none;
+}
+.form .email i{
+  position: absolute;
+  right: 60px;
+  top: 133px;
+  color: white;
+
+}
+.form .password i{
+  position: absolute;
+  right: 60px;
+  top: 195px;
+  color: white;
+
+}
+.form input::placeholder {
+  color: white;
+}
+
+
+.form button {
+  width: 270px;
+  padding: 7px 10px;
+  border-radius: 40px;
+  margin: 14px 10px;
+  border: 1px solid white;
+}
+
+.form .remember-forgot {
+  display: inline;
+  font-size: small;
+  display: flex;
+  justify-content: space-between;
+  margin: 14px 40px;
+  color: white;
+}
+
+.form .remember {
+  margin: 0;
+  padding: 0;
+  width: 20px;
+}
+
+.remember-forgot .forgot {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.remember-forgot .forgot:hover {
+  text-decoration: underline;
+}
+
+.register {
+  font-size: small;
+  color: white;
+  margin: 7px;
+}
+
+.register a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.register a:hover {
+  text-decoration: underline;
+}
+
+button:hover{
+  background-color: rgba(179, 179, 179, 0.55);
+  border: 1px solid rgba(179, 179, 179, 0.55);
+  cursor: pointer;
+}
